@@ -93,3 +93,46 @@ button{
     
     color: white;
 }
+
+
+/* Section 3 */
+
+.informationsector{
+    height:400px
+}
+
+.titlesmall{
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.fourboxes {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    
+    
+}
+
+.box{
+    padding: 60px;
+    border: 1px solid lightskyblue;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    flex: 0 0 1;
+}
+
+.subtext{
+  padding: 0px;
+  width: 120px;
+  text-align: center;
+  border: 0px;
+
+
+}
