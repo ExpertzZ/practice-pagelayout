@@ -98,7 +98,7 @@ button{
 /* Section 3 */
 
 .informationsector{
-    height:400px
+    height:350px
 }
 
 .titlesmall{
@@ -135,4 +135,30 @@ button{
   border: 0px;
 
 
+}
+
+/* Section 4 */
+
+.quoteblock{
+    height: 350px;
+    background-color: #E5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote{
+    font-size: 30px;
+    font-style: italic;
+    margin-top: 0px;
+    width: 750px;
+
+    
+}
+
+.author{
+    margin-left: auto;
+    padding-right: 25%;
+    font-size: 20px
 }
