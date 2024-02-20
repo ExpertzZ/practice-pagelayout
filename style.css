@@ -1,0 +1,95 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 0px;
+    margin-top:0px;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 5px;
+    background-color: #3882f6;
+    color: white;
+    border: 0;
+
+
+}
+
+.navigation{
+    display:flex;
+    justify-content:space-around;
+    background-color:#1F2937;
+    height:40px;
+    align-items: center;
+    
+
+    
+}
+.links{
+    display:flex;
+    justify-content:space-between;
+    width: 200px;
+}
+.logo{
+    color: white;
+    font-size: 20px
+}
+
+.link{
+    color: white;
+    font-size:12px;
+    
+}
+/* Sektion 2 */
+
+.hero{
+    display:flex;
+    justify-content:space-evenly;
+    background-color: #1F2937;
+    height: 400px;
+    align-items: center;
+}
+
+.titletextbutton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:400px;
+    height: 250px;
+}
+
+.text {
+    font-size: 18px;
+    color: #e0e1e3;
+    padding: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+.image-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.image{
+    background-color: darkgrey;
+    padding: 100px;
+    
+    color: white;
+}
