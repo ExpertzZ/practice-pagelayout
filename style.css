@@ -98,7 +98,7 @@ button{
 /* Section 3 */
 
 .informationsector{
-    height:350px
+    height: 330px;
 }
 
 .titlesmall{
@@ -162,3 +162,33 @@ button{
     padding-right: 25%;
     font-size: 20px
 }
+
+/* Section 5 */
+
+.signupsector{
+    height:300px;
+    
+}
+
+.signuphighlight{
+    display:flex;
+    justify-content: space-around;
+    background-color: #3882f6;
+    border-radius: 10px;
+    width: 800px;
+    height: 150px;
+    margin: auto;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.titletext{
+    display:flex;
+    flex-direction: column;
+}
+
+.border{
+    border: 2px solid white;
+}
+
+
