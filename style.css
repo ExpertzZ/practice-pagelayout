@@ -166,7 +166,9 @@ button{
 /* Section 5 */
 
 .signupsector{
-    height:300px;
+    height:250px;
+    align-items: center;
+    display: flex;
     
 }
 
@@ -190,5 +192,20 @@ button{
 .border{
     border: 2px solid white;
 }
+
+/* Section 6 */
+
+footer{
+    background-color: #1F2937;
+    height: 100px;
+    align-items: center;
+}
+
+.alignment{
+    line-height: 100px;
+    text-align: center;
+}
+
+
 
 
